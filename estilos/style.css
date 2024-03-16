@@ -15,7 +15,7 @@ lilás: #5f2c82
 body, html {
     background-color: #5f2c82;
     height: 100vh;
-    width: vw;
+    width: 100vw;
  }
 
  main {
@@ -36,6 +36,7 @@ section#login {
     overflow: hidden;
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0.450);
 }
 
 section#login > div#imagem { 
@@ -43,12 +44,19 @@ section#login > div#imagem {
     background-size: cover;
     background-position: left bottom;
     height: 200px;
+    display: block;
 
 
 }
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 input#submit {
@@ -68,7 +76,7 @@ input#submit:hover {
     background-color: #2d6462;
 }
 
-form > a.botao {
+a#botao {
     display: block;
     text-align: center;
     font-size: 1em;
@@ -76,8 +84,8 @@ form > a.botao {
     height: 40px; 
     padding-top: 5px;
     margin-top: 5px;
-    background-color: white;
-    color: #2d6462;
+    background-color: #6cd3cf;
+    color: white;
     border: 1px solid #49a09d;
     border-radius:  7px;
     text-decoration: none;

@@ -1,60 +1,113 @@
 @charset "UTF-8";
 
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
-    
     section#login {
         width: 90vw;
     }
-
-    section#login > div#imagem {
-        float: left;
+    
+        /* ERRO 
+        
+        section#login > div#imagem {
+        float: right;
         width: 30%;
         height: 100%;
-    }
- 
-    section#login > div#formulario {
-        float: left;
-        width: 70%;
-    }
+    }*/
     
-    input#submit {
-
-        display: block;
-        font-size: 1em;
-        width: 100%;
-        height: 40px;
-        background-color: #49a09d;
-        color: white;
-        border: none;
-        border-radius: 5px;
+    
+    
+     
+     
+        section#login > div#formulario {
+            float: left;
+            width: 80%;
+        }
         
-    }
+      
+        
+       
+        
+        form > a.botao {
+            display: block;
+            text-align: center;
+            font-size: 1em;
+            width:100%;
+            height: 40px; 
+            padding-top: 5px;
+            margin-top: 5px;
+            background-color: #6cd3cf;
+            color: white;
+            border: 1px solid #49a09d;
+            border-radius:  7px;
+            text-decoration: none;
+        
+        }
+        @media screen and (min-width: 992px) {
+
+            body {
+                background-image: linear-gradient(to top, #49a09d, #5f2c82);
+            }
+        section#login {
+            width: 950px;
+        }
     
-    input#submit:hover {
-        background-color: #2d6462;
-    }
+        section#login > div#imagem {
+            float: left;
+            width: 50%;
+            height: 100%;
+        }
     
-    form > a.botao {
-        display: block;
-        text-align: center;
-        font-size: 1em;
-        width:100%;
-        height: 40px; 
-        padding-top: 5px;
-        margin-top: 5px;
-        background-color: white;
-        color: #2d6462;
-        border: 1px solid #49a09d;
-        border-radius:  7px;
-        text-decoration: none;
+        section#login > div#formulario {
+            float: right;
+            width: 50%;
+        }
+    
+        
+        div#formulario > h1 {
+            font-size: 2em;
+        }
+    
+       
+        form > a.botao {
+            display: block;
+            text-align: center;
+            font-size: 1em;
+            width:100%;
+            height: 40px; 
+            padding-top: 5px;
+            margin-top: 5px;
+            background-color: #6cd3cf;
+            color: white;
+            border: 1px solid #49a09d;
+            border-radius:  7px;
+            text-decoration: none;
+       
     
     }
+}
+
+/* 
+
+input#submit {
+
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
 
 
-    }
+
+   
+
+
+    
     @media screen and (min-width: 992px) {
 
         body {
@@ -65,41 +118,22 @@
     }
 
     section#login > div#imagem {
-        float: right;
+        float: left;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario {
-        float: left;
+        float: right;
         width: 50%;
     }
 
+    
     div#formulario > h1 {
-        text-align: center;
-        margin-bottom: 10px;
+        font-size: 2em;
     }
-    div#formulario > p {
-        font-size: 1.2em;
-    }
-    
-    input#submit {
 
-        display: block;
-        font-size: 1em;
-        width: 100%;
-        height: 40px;
-        background-color: #49a09d;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        
-    }
-    
-    input#submit:hover {
-        background-color: #2d6462;
-    }
-    
+   
     form > a.botao {
         display: block;
         text-align: center;
@@ -108,12 +142,15 @@
         height: 40px; 
         padding-top: 5px;
         margin-top: 5px;
-        background-color: white;
-        color: #2d6462;
+        background-color: #6cd3cf;
+        color: white;
         border: 1px solid #49a09d;
         border-radius:  7px;
         text-decoration: none;
-    
-    }
+   
 
 }
+ }
+
+    
+}*/
